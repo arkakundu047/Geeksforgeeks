@@ -1,3 +1,3 @@
 # Geeksforgeeks and leetcode
 
-Here I upload the problems of geeeksforgeeks of data structures and algorithm.
+Here I upload the problems of geeeksforgeeks and leetcode of data structures and algorithm.
