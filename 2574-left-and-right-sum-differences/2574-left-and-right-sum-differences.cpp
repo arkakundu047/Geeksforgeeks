@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<int> leftRightDifference(vector<int>& nums) {
          int n= nums.size();
-        vector<int>left_sum(n,0);
+      vector<int>left_sum(n,0);
          
         left_sum[0]=nums[0];
        
