@@ -15,7 +15,7 @@ class Solution {
         ListNode leftPre = dummy;
         ListNode current = head;
         
-       for(int i=0 ; i< left-1 ; i++){
+       for(int i=1 ; i< left ; i++){
             leftPre=leftPre.next;
             current = current.next;
             
