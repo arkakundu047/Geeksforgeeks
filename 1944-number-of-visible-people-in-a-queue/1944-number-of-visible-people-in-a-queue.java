@@ -1,0 +1,16 @@
+class Solution {
+    public int[] canSeePersonsCount(final int[] heights) {
+        final int[] result = new int[heights.length], stack = new int[heights.length];
+        int idx = -1;
+
+        for(int i = 0; i < heights.length; ++i) {
+            while(idx > -1 && heights[stack[idx]] <= heights[i])
+                result[stack[idx--]]++;
+            if(idx > -1)
+                result[stack[idx]]++;
+            stack[++idx] = i;
+        }
+
+        return result;
+    }
+}
